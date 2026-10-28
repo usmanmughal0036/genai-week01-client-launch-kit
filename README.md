@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Client Launch Kit — Week 1
 
 ## Project overview
@@ -39,3 +40,7 @@ The business and workshop details are fictional and are used only for this demon
 2. Check the poster text and spelling at full size.
 3. Keep passwords, API keys, private client records, and other confidential information out of the public repository.
 4. Upload the final files to the repository named `genai-week01-client-launch-kit`.
+=======
+# genai-week01-client-launch-kit
+A Generative AI project featuring AI-assisted marketing content, a promotional poster, and a prompt-driven customer support assistant.
+>>>>>>> 9ec2ca955181edae7d3ebfc991f24d0fa4e8065c
