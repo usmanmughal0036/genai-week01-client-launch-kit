@@ -1,0 +1,63 @@
+START HERE — HOW TO COMPLETE AND SUBMIT THIS PROJECT
+=====================================================
+
+WHAT IS ALREADY PREPARED
+- Instagram caption and WhatsApp message
+- Four customer FAQs
+- Approx. 15-second voiceover script
+- 1080 × 1350 poster PNG
+- Customer-support assistant system prompt
+- Eight assistant test cases
+- README for GitHub
+
+STEP 1 — REVIEW THE CONTENT
+Open each .txt file and check it. The business is fictional, as required by the assignment. Do not add a date, certificate, discount, refund policy, or seat availability unless the fictional client brief is officially updated.
+
+STEP 2 — OPTIONAL: EDIT THE POSTER IN CANVA
+1. Open Canva and sign in.
+2. Choose Create a design → Custom size.
+3. Enter width 1080 px and height 1350 px.
+4. Upload poster.png.
+5. Use it as the base/reference and recreate or edit text/elements if your instructor requires a Canva-editable file.
+6. Export as PNG.
+The supplied poster is already a PNG, so Canva is optional unless an editable Canva design is required.
+
+STEP 3 — CREATE THE SUPPORT ASSISTANT IN GOOGLE AI STUDIO
+1. Open Google AI Studio: https://aistudio.google.com/
+2. Sign in with your Google account.
+3. Start a new chat or open a chat model.
+4. Find the System Instructions area. The interface may change.
+5. Copy all text from assistant_prompt.txt into System Instructions.
+6. Save/apply the instructions if the interface offers that option.
+7. Ask the eight questions listed in assistant_test_results.txt, one at a time.
+8. Copy the actual responses into the test-results file.
+9. Mark PASS or FAIL. If the assistant invents details, revise the instructions and test again.
+Important: This is a prototype. Do not claim that it connects to WhatsApp or makes bookings.
+
+STEP 4 — UPLOAD TO GITHUB
+1. Open https://github.com/ and sign in.
+2. Click the + menu → New repository.
+3. Repository name: genai-week01-client-launch-kit
+4. Set it to Public only if you are comfortable publishing the work and it contains no secrets.
+5. Initialize with a README if desired, or upload the supplied README.md.
+6. Choose Add file → Upload files.
+7. Upload all files from this folder, including poster.png and README.md.
+8. Commit the changes.
+9. Open the repository and confirm that all files are visible and poster.png opens correctly.
+10. Copy the repository URL for your submission.
+
+STEP 5 — FINAL CHECK
+[ ] launch_copy.txt
+[ ] poster.png (1080 × 1350)
+[ ] faqs.txt
+[ ] voiceover_script.txt
+[ ] assistant_prompt.txt
+[ ] assistant_test_results.txt updated with actual model responses
+[ ] README.md
+[ ] GitHub repository created and checked
+
+WHAT STILL REQUIRES YOUR ACTION
+- Sign in to Google AI Studio and run the live tests.
+- If needed, recreate/edit the poster in Canva so you have an editable design.
+- Create the GitHub repository and upload the files.
+These steps require access to your accounts, so they have not been completed on your behalf.

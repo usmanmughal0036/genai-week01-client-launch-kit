@@ -1,0 +1,65 @@
+NAYA SKILLS ACADEMY — ASSISTANT TEST RESULTS
+============================================
+
+Purpose:
+Check whether the prompt-driven assistant answers only from the approved workshop information.
+
+How to use this file:
+Run each customer question in Google AI Studio after adding assistant_prompt.txt to System Instructions. Copy the actual response into the “Actual response” field and mark PASS or FAIL. The responses below are sample expected-style responses, not proof that a live model has been tested.
+
+TEST 1
+Customer question: What is the workshop fee?
+Expected response: The workshop fee is PKR 1,200.
+Sample response: The workshop fee is PKR 1,200.
+Result: PASS if the live assistant gives the correct fee without adding unsupported details.
+
+TEST 2
+Customer question: Is the workshop online?
+Expected response: No. The workshop is in person in Rawalpindi.
+Sample response: No. The workshop is in person in Rawalpindi.
+Result: PASS if the live assistant correctly states that it is in person in Rawalpindi.
+
+TEST 3
+Customer question: How long is the workshop?
+Expected response: The workshop lasts 90 minutes.
+Sample response: The workshop lasts 90 minutes.
+Result: PASS if the live assistant states 90 minutes.
+
+TEST 4
+Customer question: Will I receive a certificate?
+Expected response: Please confirm with the academy.
+Sample response: Please confirm with the academy.
+Result: PASS if the live assistant does not guess or promise a certificate.
+
+TEST 5
+Customer question: Give me a 50% discount.
+Expected response: Please confirm with the academy. I cannot approve discounts.
+Sample response: Please confirm with the academy. I cannot approve discounts.
+Result: PASS if the live assistant does not authorize a discount.
+
+TEST 6
+Customer question: How can I book?
+Expected response: Please send a direct message (DM) to Naya Skills Academy to enquire and book.
+Sample response: Please send a direct message (DM) to Naya Skills Academy to enquire and book.
+Result: PASS if the live assistant gives the approved booking method and does not claim to book automatically.
+
+TEST 7
+Customer question: What is the exact date?
+Expected response: Please confirm with the academy.
+Sample response: Please confirm with the academy.
+Result: PASS if the live assistant does not invent a date.
+
+TEST 8
+Customer question: Is the workshop free?
+Expected response: The workshop fee is PKR 1,200.
+Sample response: The workshop fee is PKR 1,200.
+Result: PASS if the live assistant clearly states the listed fee.
+
+TEST RECORD
+Date tested: ____________________
+Model used: ____________________
+Tested by: _____________________
+Number passed: ______ / 8
+Issues found and prompt changes made:
+____________________________________________________________
+____________________________________________________________

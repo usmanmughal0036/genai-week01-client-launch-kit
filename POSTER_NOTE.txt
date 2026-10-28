@@ -1,0 +1,7 @@
+Poster details
+==============
+File: poster.png
+Dimensions: 1080 × 1350 pixels
+Format: PNG
+Design: Custom-created vector-style layout with clear hierarchy and verified brief details.
+Optional next step: Upload to Canva and recreate/edit elements if your instructor specifically asks for an editable Canva project.
